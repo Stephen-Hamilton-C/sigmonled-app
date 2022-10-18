@@ -22,6 +22,8 @@ kotlin {
                 api(compose.runtime)
                 api(compose.foundation)
                 api(compose.material)
+                implementation("com.badoo.reaktive:reaktive:1.2.2")
+                implementation("com.badoo.reaktive:reaktive-annotations:1.2.2")
             }
         }
         val commonTest by getting {
@@ -43,6 +45,7 @@ kotlin {
         val desktopMain by getting {
             dependencies {
                 api(compose.preview)
+                implementation("com.github.weliem.blessed-bluez:blessed:0.51")
             }
         }
         val desktopTest by getting

@@ -3,6 +3,10 @@ package app.shamilton.common
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.runtime.Composable
+import com.welie.blessed.BluetoothCentralManager
+import com.welie.blessed.BluetoothCentralManagerCallback
+import com.welie.blessed.BluetoothPeripheral
+import com.welie.blessed.ScanResult
 
 @Preview
 @Composable
